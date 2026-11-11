@@ -1,0 +1,13 @@
+VCD info: dumpfile instr_decoder.vcd opened for output.
+PASS addi x1,x0,-5
+PASS add x3,x1,x2
+PASS sub x3,x1,x2
+PASS sw x2,8(x1)
+PASS sw x2,-4(x1)
+PASS beq x0,x0,-4
+PASS lui x5,0x12345
+PASS jal x1,+8
+PASS jal x0,-4
+PASS invalid opcode
+PASS: all decoder tests passed
+tb_instr_decoder.v:119: $finish called at 510000 (1ps)
