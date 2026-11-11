@@ -1,5 +1,4 @@
 `timescale 1ns/1ps
-
 // RISC-V instruction decoder (RV32I subset)
 // fmt encoding: 0=R, 1=I, 2=S, 3=B, 4=U, 5=J, 7=invalid
 
